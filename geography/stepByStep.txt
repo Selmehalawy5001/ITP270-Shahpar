@@ -1,0 +1,12 @@
+Objective: 
+
+1. Remove the adjacent duplicate words 
+
+Challenge 1: Sort the file in a way so that all the duplicate files can be adjacent
+Challenge 2: Use the uniq command to eliminate the adjacent words 
+Challenge 3: Write the uniq contents into a new txt file 
+Challenge 4: Piping the 2 commands together
+
+first command | second command | third command
+sort file.txt | uniq           | cat > uniq-file.txt
+sort file.txt | uniq > uniq-file.txt
